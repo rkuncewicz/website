@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robert Kuncewicz</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/webicons.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner" id="title-page">
+            <div class="container">
+                <div id="title-page">
+                    <div class="masthead clearfix">
+                        <div class="inner">
+                            <h3 class="masthead-brand">Robert Kuncewicz</h3>
+                            <ul class="nav masthead-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#contact-me">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="absolute-center">
+                        <h2>Robert Kuncewicz</h2>
+                        <div class="breaker"></div>
+                        <h2>Software Developer, Cook, Pretty Cool Guy</h2>
+                        <div class="row">
+                            <a class="webicon github large" href="https://github.com/rkuncewicz/">Github</a>
+                            <a class="webicon linkedin large" href="http://lnkd.in/i7_c5e">LinkedIn</a>
+                            <a class="webicon twitter large" href="https://twitter.com/KuncewiczRobert">Twitter</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-wrapper-inner" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Me.png" alt="Me" />
+                    </div>
+                    <div class="col-md-7 padding">
+                        <h2>About Me</h2>
+                        <p>I am a recent graduate from the University of Guelph with a Bachelor's degree in Computing with an area of application in Psychology. My interests lie in many different technologies, ranging from front-end to back-end depending on what project I am working on. I'm familiar with many languages and frameworks, but I am always looking for new things to try out and play around with. </p> 
+                        <p>Writing software is a passion of mine, but variety is the spice of life and I am always trying new things outside of computer science. I love to cook and experiment with various things in the kitchen, ranging from making a perfect cut of meat to baking traditional Polish desserts. It is hard to beat the pleasure of trying new foods, as well as the challenge of pairing these foods with Ontario microbrews. Outside of the kitchen, I love to snowboard in the winter and rock climb during the summer days. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-wrapper-inner" id="projects">
+            <div class="container">
+                <div class="row">
+                    <h2 id="project-title">Projects</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 project-desc">
+                        <a href="https://github.com/rkuncewicz/FoodEmo">
+                            <h3>FoodEmo</h3>
+                        </a>
+                        <p>FoodEmo is a project that was started in my final year of University that I am continuing to hopefully release into the Android marketplace. Written for Android, FoodEmo is a way to revolutionize how individuals interact with their recipes. Currently when choosing recipes, people search for a specific dish they'd like to make, however it is much more challenging to actually pick a dish to cook. FoodEmo tries to give recipes based on their own mood or various categories that become popular.</p>
+                    </div>
+                    <a href="https://github.com/rkuncewicz/FoodEmo">
+                        <div class="col-md-2">
+                            <img src="images/foodemo_1.png" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/foodemo_2.png" />
+                        </div>
+                        <div class="col-md-2">
+                            <img src="images/foodemo_3.png" />
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 project-desc">
+                        <a href="http://dd.rkuncewicz.webfactional.com">
+                            <h3>Delicious Delights</h3>
+                        </a>
+                        <p>Delicious Delights is a project using the Yummly API to display recipes based on how they look, rather than a rating or description. It is a way to pick your recipes in a quick and simple way without having to worry if a certain recipe is 'best' or even sounds good. A minimalistic way to choose what to cook!</p>
+                    </div>
+                    <a href="http://dd.rkuncewicz.webfactional.com">
+                        <div class="col-md-6">
+                            <img src="images/dd_screenshot.jpg" />
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-wrapper-inner" id="contact-me">
+            <div class="container absolute-center" id="contact-form">
+                <h2>Give Me A Shout!</h2> 
+                <div id="name-form">
+                    <h3>What should I call you?</h3>
+                    <input type="text" id="fname" class="form-control" placeholder="Your Fancy Name.."></input>
+                </div>
+                <div id="email-form">
+                    <h3>Got an email I can reach you at?</h3>
+                    <input type="email" id="email" class="form-control" placeholder="Your Fancy Email.."></input>
+                </div>
+                <div id="message-form">
+                    <h3>What were you looking to know?</h3>
+                    <textarea rows="3" id="message" class="form-control" placeholder="Your Fancy Topic.."></textarea>
+                </div>    
+                <button type="submit" id="submit" class="btn btn-default btn-lg">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/home.js"></script>
+                
+    <!-- Start Open Web Analytics Tracker -->
+    <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'http://owa.rkuncewicz.com/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', '38ad16df53b6d459d97cd89c967cdcf6']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+    owa_cmds.push(['trackDomStream']);
+
+    (function() {
+        var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+        owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+        _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+        var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+    </script>
+    <!-- End Open Web Analytics Code -->
+  </body>
+</html>
+
+

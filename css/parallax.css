@@ -1,0 +1,22 @@
+
+#first { background: url(../images/dimension.png) 50% 0 repeat fixed; }
+#about { background: url(../images/stardust.png) 50% 0 repeat fixed; }
+#third { background: url(../images/strange_bullseyes.png) 50% 0 repeat fixed; }
+
+/* Introduction */
+#first article { width: 100%; top: 220px; position: absolute; text-align: center; }
+#first article p,
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* About */
+#about { padding: 50px 0;}
+#about #about { background: url(../images/old_moon.png) repeat #333; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); border-radius: 20px; 20px; 20px; 20px;}
+#about article p { margin-bottom: 25px; }
+#about .profile-photo { background: url(../images/RKuncewicz.jpg) transparent no-repeat ; min-height: 541px; padding: 0; margin: 0; width: 100%; max-width: 545px; position: relative; margin: auto; border-radius: 20px 20px 20px 20px; -webkit-border-radius: 20px;}
+#about #interests { background: url("../images/old_moon.png") repeat #333; width: 445px; margin-top: 300px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); border-radius: 20px; 20px; 20px; 20px;}
+
+/* Projects */
+#third article { background: url(../images/wild_flowers.png) repeat #333; margin: auto; margin-top: 50px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third #delicious-delights { background: url(../images/delicious_delights.png) transparent no-repeat; min-height: 230px; padding: 0; margin: 0 auto; margin-top: 50px;  width:100%; max-width: 500px; position: relative; border-radius: 20px 20px 20px 20px;}
